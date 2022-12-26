@@ -101,9 +101,9 @@ class ViewController: NSViewController {
         do {
             let any = try JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
             
-            if let any = any as? JSONDescription {
-                leftTextView.string = any.jsonDescription
-            }
+            //if let any = any as? JSONDescription {
+            //    leftTextView.string = any.jsonDescription
+            //}
             
             
             convert.prefix = prefixTF.stringValue
